@@ -10,7 +10,7 @@ def main():
     try:
         url = "http://openweathermap.org/data/2.5/weather?q="
         city = raw_input("Enter the city whose current weather you want to see: ")
-        api_key = "&APPID=3b8fff5eb8a9347bd1d613d5c3d0af2d"
+        api_key = "&APPID="
         url += city + "&units=imperial" + api_key
 
         response = urlopen(url)
